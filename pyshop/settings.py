@@ -26,7 +26,7 @@ SECRET_KEY = '!a2db^r&u@-_-fzvl9xn4xi89#ty0%s2gl)wip#ug554cdx1i4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['thinkmuneeb.pythonanywhere.com']
 
 
 # Application definition
@@ -122,3 +122,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = '/home/thinkmuneeb/pyshop/static'
+
+
