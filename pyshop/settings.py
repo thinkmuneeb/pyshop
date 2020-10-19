@@ -26,7 +26,7 @@ SECRET_KEY = '!a2db^r&u@-_-fzvl9xn4xi89#ty0%s2gl)wip#ug554cdx1i4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['thinkmuneeb.pythonanywhere.com']
+ALLOWED_HOSTS = ['thinkmuneeb.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
